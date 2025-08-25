@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(48, 11%, 98%);
+  --foreground: hsl(210, 25%, 7.8431%);
+  --card: hsl(48, 11%, 98%);
+  --card-foreground: hsl(210, 25%, 7.8431%);
+  --popover: hsl(48, 11%, 98%);
+  --popover-foreground: hsl(210, 25%, 7.8431%);
+  --primary: hsl(137, 24%, 32%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(201, 37%, 44%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(210, 16%, 92%);
+  --muted-foreground: hsl(210, 25%, 7.8431%);
+  --accent: hsl(25, 76%, 47%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(356.3033, 90.5579%, 54.3137%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(210, 16%, 90%);
+  --input: hsl(210, 16%, 95%);
+  --ring: hsl(137, 24%, 32%);
+  --chart-1: hsl(137, 24%, 32%);
+  --chart-2: hsl(201, 37%, 44%);
+  --chart-3: hsl(25, 76%, 47%);
+  --chart-4: hsl(33, 46%, 58%);
+  --chart-5: hsl(42, 87%, 55%);
+  --sidebar: hsl(48, 11%, 98%);
+  --sidebar-foreground: hsl(210, 25%, 7.8431%);
+  --sidebar-primary: hsl(137, 24%, 32%);
+  --sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --sidebar-accent: hsl(210, 16%, 92%);
+  --sidebar-accent-foreground: hsl(137, 24%, 32%);
+  --sidebar-border: hsl(210, 16%, 90%);
+  --sidebar-ring: hsl(137, 24%, 32%);
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: Menlo, monospace;
+  --radius: 1.3rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00), 0px 1px 2px -1px hsl(137, 24%, 32% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00), 0px 1px 2px -1px hsl(137, 24%, 32% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00), 0px 2px 4px -1px hsl(137, 24%, 32% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00), 0px 4px 6px -1px hsl(137, 24%, 32% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00), 0px 8px 10px -1px hsl(137, 24%, 32% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(137, 24%, 32% / 0.00);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+  
+  /* Travel Theme Colors */
+  --forest: hsl(137, 24%, 32%);
+  --terracotta: hsl(25, 76%, 47%);
+  --ocean: hsl(201, 37%, 44%);
+  --sand: hsl(33, 46%, 58%);
+  --warm-white: hsl(48, 11%, 98%);
+  --sunset: hsl(42, 87%, 55%);
+}
+
+.dark {
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(200, 6.6667%, 91.1765%);
+  --card: hsl(228, 9.8039%, 10%);
+  --card-foreground: hsl(0, 0%, 85.0980%);
+  --popover: hsl(0, 0%, 0%);
+  --popover-foreground: hsl(200, 6.6667%, 91.1765%);
+  --primary: hsl(137, 24%, 42%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(201, 37%, 54%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(0, 0%, 9.4118%);
+  --muted-foreground: hsl(210, 3.3898%, 46.2745%);
+  --accent: hsl(25, 76%, 57%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(356.3033, 90.5579%, 54.3137%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(210, 5.2632%, 14.9020%);
+  --input: hsl(207.6923, 27.6596%, 18.4314%);
+  --ring: hsl(137, 24%, 42%);
+  --chart-1: hsl(137, 24%, 42%);
+  --chart-2: hsl(201, 37%, 54%);
+  --chart-3: hsl(25, 76%, 57%);
+  --chart-4: hsl(33, 46%, 68%);
+  --chart-5: hsl(42, 87%, 65%);
+  --sidebar: hsl(228, 9.8039%, 10%);
+  --sidebar-foreground: hsl(0, 0%, 85.0980%);
+  --sidebar-primary: hsl(137, 24%, 42%);
+  --sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --sidebar-accent: hsl(205.7143, 70%, 7.8431%);
+  --sidebar-accent-foreground: hsl(137, 24%, 42%);
+  --sidebar-border: hsl(205.7143, 15.7895%, 26.0784%);
+  --sidebar-ring: hsl(137, 24%, 42%);
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: Menlo, monospace;
+  
+  /* Travel Theme Colors - Dark Mode */
+  --forest: hsl(137, 24%, 42%);
+  --terracotta: hsl(25, 76%, 57%);
+  --ocean: hsl(201, 37%, 54%);
+  --sand: hsl(33, 46%, 68%);
+  --warm-white: hsl(228, 9.8039%, 10%);
+  --sunset: hsl(42, 87%, 65%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-forest {
+    color: var(--forest);
+  }
+  
+  .text-terracotta {
+    color: var(--terracotta);
+  }
+  
+  .text-ocean {
+    color: var(--ocean);
+  }
+  
+  .text-sand {
+    color: var(--sand);
+  }
+  
+  .text-warm-white {
+    color: var(--warm-white);
+  }
+  
+  .text-sunset {
+    color: var(--sunset);
+  }
+  
+  .bg-forest {
+    background-color: var(--forest);
+  }
+  
+  .bg-terracotta {
+    background-color: var(--terracotta);
+  }
+  
+  .bg-ocean {
+    background-color: var(--ocean);
+  }
+  
+  .bg-sand {
+    background-color: var(--sand);
+  }
+  
+  .bg-warm-white {
+    background-color: var(--warm-white);
+  }
+  
+  .bg-sunset {
+    background-color: var(--sunset);
+  }
+  
+  .border-forest {
+    border-color: var(--forest);
+  }
+  
+  .border-terracotta {
+    border-color: var(--terracotta);
+  }
+  
+  .border-ocean {
+    border-color: var(--ocean);
+  }
+  
+  .border-sand {
+    border-color: var(--sand);
+  }
+  
+  .border-sunset {
+    border-color: var(--sunset);
+  }
+  
+  .hero-overlay {
+    background: linear-gradient(135deg, rgba(47, 82, 51, 0.7) 0%, rgba(74, 144, 164, 0.6) 100%);
+  }
+  
+  .search-shadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(30px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-10px); 
+  }
+}
