@@ -7,6 +7,9 @@ import Home from "@/pages/home";
 import Destinations from "@/pages/destinations";
 import Packages from "@/pages/packages";
 import PackageDetails from "@/pages/package-details";
+import Experiences from "@/pages/experiences";
+import About from "@/pages/about";
+import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -16,6 +19,9 @@ function Router() {
       <Route path="/destinations" component={Destinations} />
       <Route path="/packages" component={Packages} />
       <Route path="/packages/:id" component={PackageDetails} />
+      <Route path="/experiences" component={Experiences} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
   );
