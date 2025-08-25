@@ -1,0 +1,11 @@
+"Create a visually stunning and highly functional Travel & Tourism website that offers travelers an immersive and seamless experience. The website should feature a responsive design suitable for all devices and clear, user-friendly navigation with robust search and filtering options tailored to travel dates, destinations, prices, and activity types. Incorporate a secure, easy-to-use booking system with multiple payment methods and provide detailed itineraries, transparent pricing, and customer reviews to build trust.
+
+Utilize vibrant and engaging high-quality visuals, including 360° virtual tours and interactive maps, that inspire wanderlust and encourage exploration. Implement modern color themes with nature-inspired palettes such as earth-tone reds and greens, or calming blues and tans to evoke feelings of trust, adventure, and relaxation.
+
+Use contemporary typography that balances bold, adventurous fonts for headings with clean, readable sans-serifs for body text to create an inviting yet professional look. Include additional trendy features like live chat customer support, multilingual options, personalized user experiences, real-time availability, and weather forecasts to enhance usability.
+
+Design the homepage with a strong value proposition and a clear, compelling call-to-action button above the fold. Integrate social media and email marketing elements for engagement, as well as loyalty programs and special offers to attract diverse traveler segments.
+
+The overall aesthetic should blend modern minimalism with immersive storytelling, drawing inspiration from leading travel websites such as Lonely Planet, Black Tomato, and Thrillophilia by emphasizing emotion-driven visuals, intuitive layouts, and trust-building content. Ensure fast load times and optimize for mobile-first browsing to maximize conversion rates and user satisfaction."
+
+This prompt captures essential and additional features, color themes, typography preferences, and design principles aligned with 2025 travel website trends.
