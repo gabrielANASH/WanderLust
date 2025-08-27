@@ -4,7 +4,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx server/index.ts",
+  "dev": "vite",
+  "server": "tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "start": "node index.js",
     "check": "tsc",
