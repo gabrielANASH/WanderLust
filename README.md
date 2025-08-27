@@ -1,3 +1,7 @@
+
+## Project Screenshot
+![WanderLust Screenshot](screenshot.png)
+
 # WanderLust
 
 A visually stunning and highly functional Travel & Tourism website that offers travelers an interactive experience to explore destinations, book packages, and discover unique experiences.
