@@ -45,9 +45,6 @@ shared/
   schema.ts
 ```
 
-## Project Screenshot
-
-![WanderLust Screenshot](attached_assets/screenshot.png)
 
 ## License
 MIT
